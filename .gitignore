@@ -1,0 +1,45 @@
+<<<<<<< HEAD:APPWEBPYTHON/.gitignore
+
+
+entorno
+.env
+=======
+# Archivos de configuración privados
+.env
+config.pyc
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos temporales de editores
+*.swp
+*.swo
+*.bak
+*~
+
+# Bases de datos locales, si las hubiera
+*.db
+*.sqlite3
+
+# Archivos de logs
+*.log
+
+# Entorno virtual
+venv/
+env/
+ENV/
+.venv/
+
+# Subidas de archivos (si no deseas subirlas a GitHub)
+uploads/
+
+# Archivos generados por sistemas operativos
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+>>>>>>> 01b3b26 (Entrega final: app web Flask MongoEngine):.gitignore
